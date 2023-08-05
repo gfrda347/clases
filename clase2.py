@@ -7,8 +7,5 @@ class Punto:
         return f"({self.x}, {self.y})"
 
     def distancia(self, otro_punto):
-        """
-        Calcula la distancia entre este punto y otro_punto utilizando la fórmula
-        de distancia euclidiana en el plano cartesiano.
-        """
+
         return ((self.x - otro_punto.x) ** 2 + (self.y - otro_punto.y) ** 2) ** 0.5
