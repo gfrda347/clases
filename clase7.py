@@ -9,8 +9,8 @@ class CuentaBancaria:
         propietarios_str = ", ".join(self.propietarios)
         return f"Número de cuenta: {self.numero_cuenta}, Propietarios: {propietarios_str}, Balance: {self.balance:.2f}"
 
-cuenta1 = CuentaBancaria("123456789", ["John Doe", "Jane Smith"], 5000)
-cuenta2 = CuentaBancaria("987654321", ["Alice Johnson"], 10000.50)
+cuenta1 = CuentaBancaria("123456789", ["Santiago", "Sara"], 5000)
+cuenta2 = CuentaBancaria("987654321", ["Josecito"], 10000)
 
 print(cuenta1)
 print(cuenta2)

@@ -15,10 +15,10 @@ class CuentaBancaria:
         """
         self.balance += monto
 
-cuenta1 = CuentaBancaria("123456789", ["John Doe", "Jane Smith"], 5000)
+cuenta1 = CuentaBancaria("123456789", ["Santiago", "Sara"], 52000)
 
 print(cuenta1)  
 
-cuenta1.depositar(1500)
+cuenta1.depositar(11500)
 
 print(cuenta1) 

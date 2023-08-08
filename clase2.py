@@ -1,3 +1,4 @@
+#Cree una clase Punto que represente un punto en el plano cartesiano.
 class Punto:
     def __init__(self, x, y):
         self.x = x
@@ -6,6 +7,8 @@ class Punto:
     def __str__(self):
         return f"({self.x}, {self.y})"
 
-    def distancia(self, otro_punto):
+punto1 = Punto(3, 5)
+punto2 = Punto(-2, 7)
 
-        return ((self.x - otro_punto.x) ** 2 + (self.y - otro_punto.y) ** 2) ** 0.5
+print("Coordenadas del punto 1:", punto1) 
+print("Coordenadas del punto 2:", punto2)  
